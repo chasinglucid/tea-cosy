@@ -61,6 +61,7 @@ header a {
 #mission {
     height: 700px;
     background-image: url("../images/img-mission-background.jpg");
+    width: 1200px;
     padding-top: 70px;
 }
 
@@ -75,6 +76,33 @@ header a {
     padding: 10px;
 }
 /* featured teas secton */
+#featured {
+    width: 1000px;
+}
+
+#featured-header-wrapper {
+    text-align: center;
+    margin: auto;
+}
+
+#featured-flex-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-box {
+    padding: 0 10px;
+}
+
+.featured-box img {
+    height: 200px;
+    width: 300px;
+}
+
+.featured-box h4 {
+    margin-top: 10px;
+}
 
 /* locations section */
 
