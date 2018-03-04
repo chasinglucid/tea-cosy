@@ -21,6 +21,7 @@ body {
     padding-top: 69px;
     width: 1200px;
 }
+
 /* header */
 header {
     background-color: black;
@@ -34,13 +35,14 @@ header {
 }
 
 #header-logo {
-    float: left;
-    height: 50px;
+ /*   float: left;
+*/    height: 50px;
     margin-left:10px;
 }
 
-.flex-container header {
+header.flex-container {
     align-items: center;
+    justify-content: center;
 }
 
 .flex-container nav {
