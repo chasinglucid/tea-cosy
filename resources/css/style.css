@@ -147,13 +147,17 @@ header a {
 
 /* contact info */
 #contact {
-    height: 200px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
 /* footer */
 footer {
-    
+    margin: 20px;
+    text-align: left;
 }
 
 
